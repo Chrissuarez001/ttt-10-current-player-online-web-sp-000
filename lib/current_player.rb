@@ -12,7 +12,6 @@ end
     turns == turn_count
     if turns % 2 == O
       return "X"
-    else
-      return "O"
+    else return "O"
 end
     end
