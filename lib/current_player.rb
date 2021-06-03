@@ -4,15 +4,15 @@ def turn_count(board)
   if space = "X" || space ="O"
 turns += 1
 end
-end 
-  return turns 
+end
+  return turns
 
 
   def current_player(board)
-    turns == turn_count 
+    turns == turn_count
     if turns % 2 = O
       return "X"
-    else 
+    else
       return "O"
 end 
     end
